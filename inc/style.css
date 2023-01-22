@@ -1,0 +1,101 @@
+body{
+	font-family:Courier New;
+	background-color: #D3D3D3;
+}
+
+hr{
+	width: 50%;
+	border-top: 1px black solid;
+}
+
+#manage_books_head, #manage_allot_head, #register_student_head{
+	text-align: center;
+	margin-top: -50px;
+	margin-left: -45%;
+}
+
+#manage_books, #manage_allotment,#register_student, #return_back_home{
+	margin-top: 5%;
+	margin-bottom: 2%;
+	padding: 10px;
+	border: 1px dashed black;
+	border-radius: 15px;
+	width: 40%;
+}
+
+#new_book, #delete_book, #new_allot, #allot_status, #veiw_allot,#new_std, #delete_std, #update_std,
+#veiw_std, #return_back,#update_book, #return_back_table{
+	margin-top: 10px;
+	margin-left: 10%;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 20px;
+	width: 80%
+}
+
+#myform{
+	margin-left: 27%;
+	margin-top: 25px;
+}
+
+input,select, #mdiv, textarea{
+	width: 530px;
+	padding: 5px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+}
+
+
+#sbtbtn, #sbtbtn1{
+	margin-top: 20px;
+	border-radius: 25px;
+	width: 530px;
+}
+
+table, th, td {
+	padding: 5px;
+	font-size: 18px;
+	text-align: center;
+	border-color: black !important;
+	border-bottom: 0px;
+	border: 2px solid !important;
+ 	border-collapse: collapse;
+}
+
+table{
+	margin-bottom: 15px;
+}
+
+#myid{
+	width: 75%;
+	margin-left: 14%;
+	margin-top: 15px;
+	background-color: lavender;
+}
+
+#map { 
+  height: 250px;    
+  width: 530px;
+  margin-left: 2%;
+  border: 1px solid black;
+  border-radius: 15px;            
+} 
+		  
+input[type=radio] {
+  width: 15px;
+  height: 15px;
+
+}
+
+#desc{
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-top: 2%;
+	padding: 25px;
+	margin-bottom: 2%;
+}		 
+
+#b_image{
+	float: right; width: 300px; height: 400px;
+}
